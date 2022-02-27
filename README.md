@@ -8,6 +8,6 @@ HyperText Markun Languaje, es un lenguaje de hipertexto para poder hacer estruct
 
 ```html
 <p>Este es un parrafo </p>
-
-
+<h1>TITULO MAS IMPORTANTE</h1>
+<h6>Titulo menos importante</h6>
 ```
