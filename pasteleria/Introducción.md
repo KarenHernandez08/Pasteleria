@@ -20,6 +20,9 @@
 ![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/logo3.png)
 
 ## Maquetado cliente de la pasteleria ``COLOR PASTEL``
+![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/index.PNG)
+![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/usuario.PNG)
 
 ## Maquetado pastelero de la pasteleria ``COLOR PASTEL``
+![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/pastelero.PNG)
 
