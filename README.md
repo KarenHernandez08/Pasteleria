@@ -164,7 +164,7 @@ HyperText Markun Languaje, es un lenguaje de hipertexto para poder hacer estruct
     <h2>Input de botón</h2>
     <input type="reset"><br>
     <input type="submit"><br>
-    <input type="button" id="boton1" name="boton1" value="Botón 1" onclick="alert('Bienvenidos explorers');"><br><br>
+    <input type="button" id="boton1" name="boton1" value="Botón 1" onclick="alert('Bienvenidos');"><br><br>
     
     <hr>
     <!-- Formularios -->
