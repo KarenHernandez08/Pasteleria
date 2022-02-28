@@ -12,9 +12,14 @@
 - El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado con los datos del formulario.
 - La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
 
-## PROPUESTAS DE LOGO PARA LA PASTELERIA ``COLOR PASTEL``
+## Propuestas de logo para la pasteleria``COLOR PASTEL``
 
 
-![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/LOGO1.PNG)
-![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/LOGO2.PNG)
-![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/LOGO3.PNG)
+![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/logo1.png)
+![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/logo2.png)
+![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/logo3.png)
+
+## Maquetado cliente de la pasteleria ``COLOR PASTEL``
+
+## Maquetado pastelero de la pasteleria ``COLOR PASTEL``
+
