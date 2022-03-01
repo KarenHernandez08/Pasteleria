@@ -26,3 +26,8 @@
 ## Maquetado pastelero de la pasteleria ``COLOR PASTEL``
 ![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/pastelero.PNG)
 
+## Pagína 
+![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/inicio.PNG)
+![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/sabores.PNG)
+![](https://github.com/KarenHernandez08/Pasteleria/blob/main/imagenes/adornos.PNG)
+
