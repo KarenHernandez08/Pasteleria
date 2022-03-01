@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+  background-color: #FBF8F1;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25vmin;
+  line-height: 20vmin;
+}
+
+.gradient-text {
+  color: transparent;
+  background: conic-gradient(
+    #D9D7F1 12%, 
+    #BAABDA 12%, #BAABDA 33%, 
+    #E7FBBE 33%, #E7FBBE 55%, 
+    #FFCBCB 55%, #FFCBCB 70%, 
+    #B5DEFF 70%, #B5DEFF 87%, 
+    #F7D1BA 87%);
+  background-size: 50%;
+  background-clip: text;  
+  -webkit-background-clip: text;
+
+  animation: expand-rev 0.5s ease forwards;
+
+  cursor: pointer;
+}
+
+.gradient-text:hover {
+  animation: expand 0.5s ease forwards;
+}
+
+@keyframes expand {
+  0% {
+    background-size: 50%;
+    background-position: 0 0;
+  }
+  20% {
+    background-size: 55%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 325%;
+    background-position: -10em -4em;
+  }
+}
+
+@keyframes expand-rev {
+  0% {
+    background-size: 325%;
+    background-position: -10em -4em;
+  }
+  20% {
+    background-size: 55%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 50%;
+    background-position: 0 0;
+  }
+}
+
+
+
+
+
+/* DISEÑO PARA LAS CARDS */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
+
+:root {
+  --ticket-height: 60px;
+  --color-blue: lightblue;
+  --color-orange: salmon;
+  --color-green: greenyellow;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-titulo {
+  padding: 1.5rem 1rem;
+}
+.section-titulo .section-header {
+  background-color: #FFF;
+  margin-bottom: 1rem;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  color: #555;
+  font-weight: 700;
+  box-shadow: 0 10px 35px -10px rgba(0, 0, 0, .3);
+}
+
+.list-boxs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list-boxs .card {
+  width: 32%;
+  text-align: center;
+  position: relative;
+  max-width: 300px;
+}
+
+.list-boxs .card .head,
+.list-boxs .card .body {
+  background-color: #FFF;
+  padding: 1.5rem 1rem;
+}
+
+.list-boxs .card .head {
+  color: #333;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transform: translateY(30px);
+  transition: transform .3s linear;
+  border-bottom: 1px solid #F2F2F2;
+}
+.list-boxs .card:hover .head {
+  transform: translateY(0);
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, .1);
+}
+
+.list-boxs .card .ticket {
+  color: #FFF;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  height: var(--ticket-height);
+  box-shadow: inset 0px 6px 6px -5px rgba(0, 0, 0, .25),
+              inset 0px -6px 6px -5px rgba(0, 0, 0, .25);
+}
+.list-boxs .carta1 .ticket {
+  background-color: var(--color-green);
+}
+.list-boxs .carta2 .ticket {
+  background-color: var(--color-blue);
+}
+.list-boxs .carta3 .ticket {
+  background-color: var(--color-orange);
+}
+
+.list-boxs .card .body {
+  transform: translateY(-30px);
+  transition: transform .3s linear;
+}
+.list-boxs .card:hover .body {
+  transform: translateY(0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.list-boxs .card p {
+  font-size: .95rem;
+  color: #333;
+  text-align: justify;
+}
+.list-boxs .card .btn {
+  margin-top: 2rem;
+  padding: .6rem 1rem;
+  outline: none;
+  font-size: .85rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  min-width: 160px;
+  border: 1px solid #555;
+  background-color: #555;
+  color: #333;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+.list-boxs .card .btn:hover {
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, .15);
+}
+
+.list-boxs .carta1 .btn {
+  background: var(--color-green);
+  border-color: var(--color-green);
+}
+.list-boxs .carta2 .btn {
+  background: var(--color-blue);
+  border-color: var(--color-blue);
+}
+.list-boxs .carta3 .btn {
+  background: var(--color-orange);
+  border-color: var(--color-orange);
+}
+
+
+@media screen and (max-width: 750px) {
+  .list-boxs {
+    justify-content: space-around;
+  }
+  .list-boxs .card {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .list-boxs .card {
+    width: 95%;
+  }
+}
+
+/*BOTONES DISEÑO*/
+button {
+    --border: 5px;    
+    --slant: 0.7em;   
+    --color: #37E8FC; 
+    
+    font-size: 35px;
+    padding: 0.4em 1.2em;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--color);
+    background: 
+       linear-gradient(to bottom left,var(--color)  50%,#0000 50.1%) top right,
+       linear-gradient(to top   right,var(--color)  50%,#0000 50.1%) bottom left;
+    background-size: calc(var(--slant) + 1.3*var(--border)) calc(var(--slant) + 1.3*var(--border));
+    background-repeat: no-repeat;
+    box-shadow:
+      0 0 0 200px inset var(--s,#0000),
+      0 0 0 var(--border) inset var(--color);
+    clip-path: 
+        polygon(0 0, calc(100% - var(--slant)) 0, 100% var(--slant),
+                100% 100%, var(--slant) 100%,0 calc(100% - var(--slant))
+               );
+    transition: color var(--t,0.3s), background-size 0.3s;
+  }
+  button:hover,
+  button:active{
+    background-size: 100% 100%;
+    color: #fff;
+    --t: 0.2s 0.1s;
+  }
+  button:focus-visible {
+    outline-offset: calc(-1*var(--border));
+    outline: var(--border) solid #000a;
+  }
+  button:active {
+    --s: #0005;
+    transition: none;
+  }
+  
+  
+  
+  body {
+    display:grid;
+    grid-auto-flow:column;
+    grid-gap:20px;
+    place-content:center;
+    margin:0;
+    height:100vh;
+  }
