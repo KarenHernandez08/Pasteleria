@@ -71,3 +71,29 @@ h1 {
     background-position: 0 0;
   }
 }
+
+table {
+  width: 100%;
+  border: 1px solid #000;
+}
+th  {
+  width: 14%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 5;
+  line-height: 4;
+  text-align: left;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  background: #99E9FF;
+}
+  
+
+td {
+  width: 14%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 5;
+  line-height: 4;
+  text-align: left;
+  border: 1px solid #000;
+  border-collapse: collapse;
+ }
